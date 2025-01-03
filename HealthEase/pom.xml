@@ -98,11 +98,6 @@
 			<type>pom</type>
 		</dependency>
 
-		<dependency>
-			<groupId>com.Vtiger</groupId>
-			<artifactId>Vtiger_CRM</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 
 	<build>
