@@ -60,4 +60,20 @@ public class JavaUtility {
 		
 	}
 
+	public String getRandomFirstName() {
+		String[] firstNames = { "John", "Emma", "Michael", "Sophia", "William", "Olivia", "James", "Ava", "Ethan","Isabella","Thomas" };
+		Random random = new Random();
+		int randomFirstNameIndex = random.nextInt(firstNames.length);
+		return firstNames[randomFirstNameIndex];
+
+	}
+	
+	public String getRandomLastName() {
+		String[] lastNames = { "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis","Martinez", "Hernandez" ,"Shelby","Wick"};
+		Random random = new Random();
+		int randomLastNameIndex = random.nextInt(lastNames.length);
+		return lastNames[randomLastNameIndex];
+
+	}
+
 }
