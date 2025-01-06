@@ -9,8 +9,8 @@
           <include name="afterClass"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>
-          <include name="individualPatientReportPage"/>
           <include name="beforeClass"/>
+          <include name="editDoctorSpecializationPage"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.hms.base.admin.AdminModuleTest -->
