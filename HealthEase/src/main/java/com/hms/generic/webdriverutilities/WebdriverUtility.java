@@ -126,6 +126,7 @@ public class WebdriverUtility {
 			}
 		}
 	}
+	
 
 	// This method is used to right click
 	public void rightClick(WebDriver driver) {

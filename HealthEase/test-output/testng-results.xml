@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-06T11:04:13 IST" name="Default suite" finished-at="2025-01-06T11:04:22 IST" duration-ms="9395">
+  <suite started-at="2025-01-06T15:26:15 IST" name="Default suite" finished-at="2025-01-06T15:29:15 IST" duration-ms="180540">
     <groups>
       <group name="regression">
-        <method signature="AdminModuleTest.editDoctorSpecializationPage()[pri:5, instance:com.hms.base.admin.AdminModuleTest@33c911a1]" name="editDoctorSpecializationPage" class="com.hms.base.admin.AdminModuleTest"/>
+        <method signature="AdminModuleTest.patientReportsPage()[pri:3, instance:com.hms.base.admin.AdminModuleTest@394df057]" name="patientReportsPage" class="com.hms.base.admin.AdminModuleTest"/>
+        <method signature="AdminModuleTest.individualPatientReportPage()[pri:4, instance:com.hms.base.admin.AdminModuleTest@394df057]" name="individualPatientReportPage" class="com.hms.base.admin.AdminModuleTest"/>
+        <method signature="AdminModuleTest.editDoctorSpecializationPage()[pri:5, instance:com.hms.base.admin.AdminModuleTest@394df057]" name="editDoctorSpecializationPage" class="com.hms.base.admin.AdminModuleTest"/>
       </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AdminModuleTest.managePatientPage()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" name="managePatientPage" class="com.hms.base.admin.AdminModuleTest"/>
+        <method signature="AdminModuleTest.manageUserPage()[pri:1, instance:com.hms.base.admin.AdminModuleTest@394df057]" name="manageUserPage" class="com.hms.base.admin.AdminModuleTest"/>
+        <method signature="AdminModuleTest.userlogs()[pri:2, instance:com.hms.base.admin.AdminModuleTest@394df057]" name="userlogs" class="com.hms.base.admin.AdminModuleTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-01-06T11:04:13 IST" name="Default test" finished-at="2025-01-06T11:04:22 IST" duration-ms="9395">
+    <test started-at="2025-01-06T15:26:15 IST" name="Default test" finished-at="2025-01-06T15:29:15 IST" duration-ms="180540">
       <class name="com.hms.base.admin.AdminModuleTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.hms.base.admin.AdminModuleTest@33c911a1]" started-at="2025-01-06T11:04:13 IST" name="beforeSuite" finished-at="2025-01-06T11:04:13 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:15 IST" name="beforeSuite" finished-at="2025-01-06T15:26:15 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.hms.base.admin.AdminModuleTest@33c911a1]" started-at="2025-01-06T11:04:13 IST" name="beforeClass" finished-at="2025-01-06T11:04:17 IST" duration-ms="4392" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:15 IST" name="beforeClass" finished-at="2025-01-06T15:26:25 IST" duration-ms="10858" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,23 +32,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@33c911a1]" started-at="2025-01-06T11:04:17 IST" name="beforeMethod" finished-at="2025-01-06T11:04:19 IST" duration-ms="2045" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:26 IST" name="beforeMethod" finished-at="2025-01-06T15:26:48 IST" duration-ms="22581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="editDoctorSpecializationPage()[pri:5, instance:com.hms.base.admin.AdminModuleTest@33c911a1]" started-at="2025-01-06T11:04:19 IST" name="editDoctorSpecializationPage" finished-at="2025-01-06T11:04:21 IST" duration-ms="2150" status="PASS">
+        <test-method signature="managePatientPage()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:48 IST" name="managePatientPage" finished-at="2025-01-06T15:26:50 IST" duration-ms="1980" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editDoctorSpecializationPage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@33c911a1]" started-at="2025-01-06T11:04:21 IST" name="afterMethod" finished-at="2025-01-06T11:04:21 IST" duration-ms="262" status="PASS">
+        </test-method> <!-- managePatientPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:50 IST" name="afterMethod" finished-at="2025-01-06T15:26:51 IST" duration-ms="751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.hms.base.admin.AdminModuleTest@33c911a1]" started-at="2025-01-06T11:04:22 IST" name="afterClass" finished-at="2025-01-06T11:04:22 IST" duration-ms="476" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:51 IST" name="beforeMethod" finished-at="2025-01-06T15:26:52 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="manageUserPage()[pri:1, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:52 IST" name="manageUserPage" finished-at="2025-01-06T15:26:53 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageUserPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:53 IST" name="afterMethod" finished-at="2025-01-06T15:26:53 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:26:53 IST" name="beforeMethod" finished-at="2025-01-06T15:27:12 IST" duration-ms="19057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userlogs()[pri:2, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:27:12 IST" name="userlogs" finished-at="2025-01-06T15:27:39 IST" duration-ms="27099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogs -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:27:39 IST" name="afterMethod" finished-at="2025-01-06T15:27:40 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:27:40 IST" name="beforeMethod" finished-at="2025-01-06T15:27:55 IST" duration-ms="15207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="patientReportsPage()[pri:3, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:27:55 IST" name="patientReportsPage" finished-at="2025-01-06T15:28:02 IST" duration-ms="6804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientReportsPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:28:02 IST" name="afterMethod" finished-at="2025-01-06T15:28:03 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:28:03 IST" name="beforeMethod" finished-at="2025-01-06T15:28:09 IST" duration-ms="6458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="individualPatientReportPage()[pri:4, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:28:09 IST" name="individualPatientReportPage" finished-at="2025-01-06T15:28:16 IST" duration-ms="6907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- individualPatientReportPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:28:16 IST" name="afterMethod" finished-at="2025-01-06T15:28:17 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:28:17 IST" name="beforeMethod" finished-at="2025-01-06T15:28:24 IST" duration-ms="7047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="editDoctorSpecializationPage()[pri:5, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:28:24 IST" name="editDoctorSpecializationPage" finished-at="2025-01-06T15:29:13 IST" duration-ms="48876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editDoctorSpecializationPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:29:13 IST" name="afterMethod" finished-at="2025-01-06T15:29:15 IST" duration-ms="2056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:29:15 IST" name="afterClass" finished-at="2025-01-06T15:29:15 IST" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.hms.base.admin.AdminModuleTest@33c911a1]" started-at="2025-01-06T11:04:22 IST" name="afterSuite" finished-at="2025-01-06T11:04:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.hms.base.admin.AdminModuleTest@394df057]" started-at="2025-01-06T15:29:15 IST" name="afterSuite" finished-at="2025-01-06T15:29:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
