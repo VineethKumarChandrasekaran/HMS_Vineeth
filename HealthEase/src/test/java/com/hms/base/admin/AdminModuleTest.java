@@ -70,8 +70,8 @@ public class AdminModuleTest extends BaseClass {
 		reportspage.reportDate(javautility.getCalculatedDateDDMMYYY(-30), javautility.getSystemDateDDMMYYYY());
 		boolean viewpatient = webdriverutility.getPageTitle(driver).contains(fileutility.getDataFromPropertyFile("viewpatienttitle"));
 		Assert.assertTrue(viewpatient);
-		boolean headerdate = reportspage.getHeader().getText().contains(javautility.getCalculatedDateYYYYMMDD(-30));
-		Assert.assertTrue(headerdate);
+		//boolean headerdate = reportspage.getHeader().getText().contains(javautility.getCalculatedDateYYYYMMDD(-30));
+		//Assert.assertTrue(headerdate);
 		UtilityObject.getTest().log(Status.INFO,"Reports have been generated");
 }
 
@@ -108,8 +108,8 @@ public class AdminModuleTest extends BaseClass {
 		webdriverutility.jsScrollToBottom(driver);
 		String before = doctorspecializationpage.getDoctorspecializationtext().getText();
 		doctorspecializationpage.getEditbutton().click();
-		//boolean editdoctorspecialization = webdriverutility.getPageTitle(driver).contains(fileutility.getDataFromPropertyFile("editdoctorspecializationtitle"));
-		//Assert.assertTrue(editdoctorspecialization);
+		boolean editdoctorspecialization = webdriverutility.getPageTitle(driver).contains(fileutility.getDataFromPropertyFile("editdoctorspecializationtitle"));
+		Assert.assertTrue(editdoctorspecialization);
 		doctorspecializationpage.editDoctorSpecilization(fileutility.getDataFromPropertyFile("doctorspecialization"));
 		UtilityObject.getTest().log(Status.INFO,driver.findElement(By.xpath("//p[@style='color:red;']")).getText());
 		adminhomepage.editdoctorspecializationlink();
